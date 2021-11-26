@@ -11255,6 +11255,138 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+footer {
+  background-color: #151414;
+}
+footer > div:first-child {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #9926f0;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-box__icon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-box__info {
+    text-align: center;
+  }
+}
+.contact-box__info p {
+  margin-bottom: 0;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--subtitle {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm {
+  background-color: #212121;
+}
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+.footer-sm a .fa-facebook {
+  margin-left: 0;
+}
+
+.footer-company-info hr {
+  width: 60px;
+  height: 2px;
+}
+.footer-company-info .company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.footer-company-info .company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.footer-company-info .company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-company-info .company-list li a:hover {
+  color: #9926f0;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.75rem;
+  bottom: 1.75rem;
+  z-index: 999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;
